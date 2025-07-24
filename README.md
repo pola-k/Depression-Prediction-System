@@ -6,7 +6,6 @@ This project is a solution to the [Kaggle Playground Series - Season 4, Episode 
 
 To build a highly accurate model that can help identify individuals potentially experiencing mental health issues—supporting timely diagnosis and intervention.
 
----
 
 ## Data Preprocessing & Deep Cleaning
 
@@ -24,7 +23,6 @@ A robust data cleaning and transformation pipeline was implemented to ensure qua
 
 These steps dramatically improved data usability, reduced noise, and enhanced model performance.
 
----
 
 ## Models Evaluated
 
@@ -45,13 +43,11 @@ A broad range of classification models were tested to benchmark performance:
 * **CatBoostClassifier** 
 * **VotingClassifier** (ensemble of: Logistic Regression, CatBoost, LightGBM, XGBoost)
 
----
 
 ## Hyperparameter Tuning
 
 The top 4 models used in the Voting Classifier underwent fine-tuning via **Optuna** with **5-fold Stratified Cross-Validation**, optimizing for **accuracy**. This ensured the models were well-calibrated to the dataset without overfitting.
 
----
 
 ## Best Model
 
@@ -60,7 +56,6 @@ Among all, **CatBoostClassifier** emerged as the best performer with an **Accura
 * Minimal preprocessing requirement
 * Fast training with excellent generalization
 
----
 
 ## Evaluation Metrics
 
@@ -72,8 +67,6 @@ Performance was measured using:
 * F1-Score
 
 Additionally, the UI displays a confidence level with each prediction using a dynamic **progress bar**, offering users a transparent view of prediction certainty.
-
----
 
 ## Conclusion
 
