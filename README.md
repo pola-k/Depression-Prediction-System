@@ -1,4 +1,4 @@
-# Mental Health Prediction Using Machine Learning
+# Depression Prediction Using Machine Learning
 
 This project is a solution to the [Kaggle Playground Series - Season 4, Episode 11](https://www.kaggle.com/competitions/playground-series-s4e11) competition. It focuses on building a machine learning pipeline that accurately predicts signs of mental health conditions using survey data.
 
